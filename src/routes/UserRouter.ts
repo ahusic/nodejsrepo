@@ -25,7 +25,7 @@ export class UserRouter {
 
         }
       })
-      res.send(JSON.stringify(mappedUsers));
+      res.send(JSON.stringify("nothing"));
     } catch (ex) {
       res.send({ status: 500, response: ex });
     }
